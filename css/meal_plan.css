@@ -1,4 +1,18 @@
 body {
-    background-color: rgb(255, 212, 235);
+    background-color: rgb(248, 238, 242);
     width: fit-content;
+    font-family: "Adelle Sans Devanagari", serif;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%
+}
+
+input[type=submit] {
+    appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: #ffcdea;
+    border-radius: 5px;
 }

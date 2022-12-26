@@ -1,7 +1,8 @@
-//home pg
-    // cute, logo
-    //link to meal page and calendar page
-//meal page with links to recipes
-    //images and links to recipes
-//calendar page to plan and print schedule
-    //form to fill out meal plan
+//window.alert("Welcome to this website! Please allow cookies, preferably chocolate chip.");
+
+var created = new Date(2022, 12, 26);
+var today = new Date();
+
+created.toDateString();
+today.toDateString();
+

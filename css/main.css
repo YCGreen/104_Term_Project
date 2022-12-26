@@ -1,12 +1,11 @@
 header {
-    background: rgb(255, 212, 235);
+    background: rgb(225, 127, 190);
     width: fit-content;
 }
 
-img#college_cooking_logo.png {
+img {
     object-fit: cover;
     max-width: 100%
-
 }
 
 header nav ul li {

@@ -1,0 +1,23 @@
+header {
+    background: rgb(255, 212, 235);
+    width: fit-content;
+}
+
+img#college_cooking_logo.png {
+    object-fit: cover;
+    max-width: 100%
+
+}
+
+header nav ul li {
+    font-size: 2em;
+    font-family: "Apple Chancery", cursive;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+header nav ul li a {
+    color: black;
+}
+

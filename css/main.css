@@ -1,6 +1,9 @@
-header {
-    background: rgb(225, 127, 190);
+body {
+    background: rgb(255, 212, 235);
     width: fit-content;
+    font-family: "Apple Chancery";
+    text-align: right;
+    font-size: .5em;
 }
 
 img {
@@ -8,7 +11,7 @@ img {
     max-width: 100%
 }
 
-header nav ul li {
+nav ul li {
     font-size: 2em;
     font-family: "Apple Chancery", cursive;
     text-align: center;
@@ -16,7 +19,7 @@ header nav ul li {
 
 }
 
-header nav ul li a {
+nav ul li a {
     color: black;
 }
 

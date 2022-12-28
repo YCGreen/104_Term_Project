@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <title>Meal Plan</title>
     <link href="../css/meal_plan.css" rel="stylesheet"/>
+    <script src="../js/meal_plan.js" defer></script>
 </head>
 <body>
 <header>
     <img src="../img/college_cooking_header.png"/>
 </header>
   <form action="example.com" name="Meal Plan" method="POST">
+      Date:<br>
+      <input type="date" id="dateSelected"/><br>
 
       Day:<br>
       <select name="day">
@@ -26,7 +29,7 @@
 
       Main:<br>
       <input type="radio" name="chicken" value="chicken">Chicken<br>
-      <input type="radio" name="salmon" value="stir fry">Stiry Fry<br>
+      <input type="radio" name="salmon" value="stir fry">Stir Fry<br>
       <input type="radio" name="pasta" value="pasta">Pasta<br><br>
 
       Side:<br>
@@ -36,7 +39,7 @@
       Notes:<br>
       <input type="text" name="notes"><br><br>
 
-      <input type="submit" value="Save"/>
+      <input type="submit" id="submit" value="Save" onclick="showConfirmation()"/>
 
   </form>
 

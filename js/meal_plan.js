@@ -7,7 +7,7 @@ document.getElementById("dateCreated").innerText=dateCreated.toDateString();
 function showConfirmation() {
     var today = new Date();
     const datePicker = document.getElementById("dateSelected");
-    const nextDate = datePicker.value;
+    const nextDate = datePicker.value + 1;
     const nextDate1 = new Date(nextDate);
     var dateDiff = (nextDate1 - today) / (1000 * 60 * 60 * 24);
     var dateD = Math.floor(dateDiff);

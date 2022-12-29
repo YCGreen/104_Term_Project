@@ -8,11 +8,14 @@
 </head>
 <body>
 <header>
-    <img src="../img/college_cooking_header.png"/>
+    <img src="../img/college_cooking_header.png" alt=""/>
 </header>
   <form action="example.com" name="Meal Plan" method="POST">
+      <header>
+          Planning meal for:
+      </header>
       Date:<br>
-      <input type="date" id="dateSelected"/><br>
+      <input type="date" id="dateSelected" required /><br><br>
 
       Day:<br>
       <select name="day">
@@ -29,7 +32,7 @@
 
       Main:<br>
       <input type="radio" name="chicken" value="chicken">Chicken<br>
-      <input type="radio" name="salmon" value="stir fry">Stir Fry<br>
+      <input type="radio" name="salmon" value="salmon">Salmon<br>
       <input type="radio" name="pasta" value="pasta">Pasta<br><br>
 
       Side:<br>

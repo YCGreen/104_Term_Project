@@ -23,3 +23,26 @@ nav ul li a {
     color: black;
 }
 
+footer {
+    position: fixed;
+    width: 100%;
+
+}
+
+#footerimg {
+    width: 5em;
+    height: 5em;
+}
+
+
+table, th, td {
+    border: 1px solid;
+    width: 100%;
+    text-align: left;
+    font-size: 2em;
+
+}
+
+a {
+    color: black;
+}
